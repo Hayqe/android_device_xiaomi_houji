@@ -14,13 +14,13 @@ include device/xiaomi/sm8650-common/BoardConfigCommon.mk
 TARGET_SCREEN_DENSITY := 440
 
 # Dtb/o
-BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
-BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtb
+BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbs/dtbo.img
 
 TARGET_NO_KERNEL_OVERRIDE := true
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
 PRODUCT_COPY_FILES += \
-	$(KERNEL_PATH)/Image:kernel
+	$(KERNEL_PATH)/Image:kernel \
+	$(KERNEL_PATH)/dtbs/dtb.img:dtb.img
 
 # Kernel modules
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(KERNEL_PATH)/vendor_ramdisk/modules.load))
