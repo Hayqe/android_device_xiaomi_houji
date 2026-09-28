@@ -163,7 +163,7 @@ odm/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-impl.so
 odm/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk_platform.so
 odm/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so
 odm/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
-system_ext/lib64/vendor.xiaomi.hardware.framecapturemanager-V1-ndk.so
+# system_ext/lib64/vendor.xiaomi.hardware.framecapturemanager-V1-ndk.so  (moved to sm8650-common)
 vendor/lib64/vendor.xiaomi.hardware.aon-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.quickcamera-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.camera.injection-V1-ndk.so
