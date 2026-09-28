@@ -33,4 +33,5 @@ PRODUCT_PACKAGES += \
     FrameworksResHouji \
     HoujiEuiccOverlay \
     SettingsOverlayHouji \
-    SystemUIResHouji
+    SystemUIResHouji \
+    UpdaterOverlayHouji

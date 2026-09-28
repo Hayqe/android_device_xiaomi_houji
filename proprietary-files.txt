@@ -47,11 +47,11 @@ odm/lib64/rfs/dsp/libapn_dsp_skel.so;SYMLINK=vendor/lib64/rfs/dsp/libapn_dsp_ske
 odm/lib64/rfs/dsp/libbitml_nsp_75na_skel.so;SYMLINK=vendor/lib64/rfs/dsp/libbitml_nsp_75na_skel.so
 odm/lib64/rfs/dsp/libhdr_skel.so;SYMLINK=vendor/lib64/rfs/dsp/libhdr_skel.so
 odm/lib64/rfs/dsp/libqsegnetengine_dsp_skel.so;SYMLINK=vendor/lib64/rfs/dsp/libqsegnetengine_dsp_skel.so
-odm/lib64/se_algo/libQnnHtp.so;MODULE_SUFFIX=_xiaomi
-odm/lib64/se_algo/libQnnHtpNetRunExtensions.so;MODULE_SUFFIX=_xiaomi
-odm/lib64/se_algo/libQnnHtpV75Skel.so;MODULE_SUFFIX=_xiaomi
-odm/lib64/se_algo/libQnnHtpV75Stub.so;MODULE_SUFFIX=_xiaomi
-odm/lib64/se_algo/libQnnSystem.so;MODULE_SUFFIX=_xiaomi
+# odm/lib64/se_algo/libQnnHtp.so;MODULE_SUFFIX=_xiaomi
+# odm/lib64/se_algo/libQnnHtpNetRunExtensions.so;MODULE_SUFFIX=_xiaomi
+# odm/lib64/se_algo/libQnnHtpV75Skel.so;MODULE_SUFFIX=_xiaomi
+# odm/lib64/se_algo/libQnnHtpV75Stub.so;MODULE_SUFFIX=_xiaomi
+# odm/lib64/se_algo/libQnnSystem.so;MODULE_SUFFIX=_xiaomi
 odm/lib64/bm4a68v08s12n52.bin
 odm/lib64/bm4a68v08s12n53.bin
 odm/lib64/bm4a73v08s12n02.bin
@@ -1441,7 +1441,7 @@ odm/etc/display/qdcm_calib_data_xiaomi_n3_42_0d_0a_cmd_mode_dsc_dsi_panel.json
 odm/etc/mdss_dsi_n3_42_0d_0a_dsc_cmd_mi.xml
 
 # Euicc - from shiba-user-15-BP1A.250405.005.B1-13151136-release-keys
-product/priv-app/EuiccGoogle/EuiccGoogle.apk|c792c42ba4cd171752d7ce5516a56ecb9858dc69
+# product/priv-app/EuiccGoogle/EuiccGoogle.apk|c792c42ba4cd171752d7ce5516a56ecb9858dc69
 
 # Fingerprint
 odm/lib64/hw/fingerprint.goodix_fod.so:odm/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME
