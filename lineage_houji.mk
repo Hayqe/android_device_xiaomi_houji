@@ -9,6 +9,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
+# mini-GApps: de volledige GApps-set (gms_full) past niet in de 8,32 GB super-partitie.
+TARGET_USES_MINI_GAPPS := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from houji device.
